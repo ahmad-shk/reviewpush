@@ -1,0 +1,1 @@
+export const Demodata=[{Name:"Atlantis The Royal, Dubai ",Id:1,Link:"https://www.youtube.com/"},{Name:"Ritz-Carlton, Grand Cayman",Id:2,Link:"https://www.youtube.com/"},{Name:"Montage Big Sky, Montana",Id:3,Link:"https://www.youtube.com/"}]
