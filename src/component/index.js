@@ -15,7 +15,7 @@ function ChildReview({ dataNum }) {
 
   useEffect(() => {
     const totalStars = Object.values(values).reduce((a, b) => a + b, 0);
-    if (totalStars <= 11 && showData?.Link) {
+    if (totalStars >= 11 && showData?.Link) {
       window.location.href = showData.Link;
     }
   }, [values, showData]);
